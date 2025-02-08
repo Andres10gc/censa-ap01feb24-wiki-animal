@@ -1,0 +1,92 @@
+:root{
+    --color-black:#000000;
+    --color-orange: rgb(243, 161, 9);
+    --color-white:#f7fcf7; 
+    }
+    
+    *,
+    *::after, 
+    *::before{
+        font-family:"alegreya", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    a,
+    a:visited,
+    a:link,
+    a:hover,
+    a:active{
+        color: var(--color-black);
+        text-decoration: none;    
+    }
+    
+    .navigation-bar {
+        display: flex;
+        padding: 5px;
+        background-color: var(--color-orange);
+    }
+    
+    
+    
+    .brand-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+    
+        img{
+            border-radius: 50%;
+     width: 80px;
+     height: auto;
+     object-fit: cover; 
+     aspect-ratio: 1;
+         }
+        
+        span {
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+
+    body {
+        background-color: var(--color-white)
+    }
+
+    
+    .info-section {
+        margin: 10px 40px;
+        background-color: var(--color-green); 
+        align-items: center;
+        justify-content: center;
+    
+        h1 {
+            margin: 0 0 16px;
+            font-size: 40px;
+            font-weight: 900;
+        }
+    
+        h2 {
+            margin: 0 0 8px;
+            font-size: 30px;
+            font-weight:700;
+        }    
+        p {
+            margin: 0 0 8px;
+            font-size: 16px;
+        }
+    
+        p:last-child {
+    margin: 0;
+        }
+       
+    }
+    
+    .cards-container{
+        display: flex;
+        gap: 16px;
+    }
+    
+    <img src=""
+        
